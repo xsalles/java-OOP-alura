@@ -7,15 +7,17 @@ public class Main {
         Carro myCar = new Carro();
 
         System.out.println("Qual o modelo do carro?\n");
-        myCar.modelo = sc.next();
+        myCar.model = sc.next();
 
         System.out.println("\nQual a cor do carro?\n");
-        myCar.cor = sc.next();
+        myCar.color = sc.next();
 
         System.out.println("\nQual o ano do carro?\n");
-        myCar.ano = sc.nextInt();
+        myCar.year = sc.nextInt();
 
         myCar.showInformations();
+
+        myCar.showTheAge();
 
         sc.close();
     }
