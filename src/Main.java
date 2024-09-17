@@ -7,9 +7,9 @@ public class Main {
       myMovie.durationInMinutes = 181;
       myMovie.incluseInPlan = true;
 
-      myMovie.sumOfReviews(8);
-      myMovie.sumOfReviews(7);
-      myMovie.sumOfReviews(3);
+      myMovie.averageOfReviews(8);
+      myMovie.averageOfReviews(7);
+      myMovie.averageOfReviews(3);
 
       myMovie.showInformations();
    }
