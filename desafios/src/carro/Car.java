@@ -1,5 +1,5 @@
 package carro;
-public class Carro {
+public class Car {
     String model, color;
     int year = 0;
     int currentYear = 2024;

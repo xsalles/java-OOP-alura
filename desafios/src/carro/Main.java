@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Carro myCar = new Carro();
+        Car myCar = new Car();
 
         System.out.println("Qual o modelo do carro?\n");
         myCar.model = sc.next();
