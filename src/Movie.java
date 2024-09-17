@@ -4,7 +4,7 @@ public class Movie {
         boolean incluseInPlan;
         double reviews, average;
 
-        void sumOfReviews(double note){
+        void sumOfReviews(double note) {
                 reviews += note;
 
                 allReviews++;
@@ -12,13 +12,13 @@ public class Movie {
                 average = reviews / allReviews;
         }
 
-        void showInformations (){
+        void showInformations() {
                 System.out.printf("""
                                 Nome do filme: %s
                                 Ano de Lançamento: %d
                                 Duração em minutos: %d minutos
                                 Nota média do filme: %.1f
-                                Quantidade de avaliações: %d 
+                                Quantidade de avaliações: %d
                                 """, name, yearOfRealease, durationInMinutes, average, allReviews);
-            }
+        }
 }
