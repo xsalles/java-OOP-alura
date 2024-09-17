@@ -6,9 +6,13 @@ public class Main {
         myMovie.yearOfRealease = 2019;
         myMovie.durationInMinutes = 181;
         myMovie.incluseInPlan = true;
-        myMovie.reviews = 8.1;
-        myMovie.allReviews = 8;
+
+        myMovie.sumOfReviews(8);
+        myMovie.sumOfReviews(7);
+        myMovie.sumOfReviews(3);
 
         myMovie.showInformations();
+
+
      }
 }
