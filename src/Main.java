@@ -9,6 +9,6 @@ public class Main {
         myMovie.reviews = 8.1;
         myMovie.allReviews = 8;
 
-        System.out.println(myMovie.name);
+        myMovie.showInformations();
      }
 }

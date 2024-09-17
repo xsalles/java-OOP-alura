@@ -3,4 +3,14 @@ public class Movie {
         int yearOfRealease, allReviews, durationInMinutes;
         boolean incluseInPlan;
         double reviews;
+
+        void showInformations (){
+            System.out.printf("""
+                            Nome do filme: %s
+                            Ano de Lançamento: %d
+                            Duração em minutos: %d minutos
+                            Nota média do filme: %.1f
+                            Quantidade de avaliações: %d
+                            """, name, yearOfRealease, durationInMinutes, reviews, allReviews);
+        }
 }
