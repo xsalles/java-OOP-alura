@@ -1,4 +1,4 @@
-package carro;
+package car;
 public class Car {
     String model, color;
     int year = 0;

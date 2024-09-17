@@ -1,4 +1,4 @@
-package pessoa;
+package person;
 
 public class Person {
     String phrase = "Hello world";
