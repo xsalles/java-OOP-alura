@@ -4,7 +4,7 @@ public class Movie {
         boolean incluseInPlan;
         double reviews, average;
 
-        void sumOfReviews(double note) {
+        void averageOfReviews(double note) {
                 reviews += note;
 
                 allReviews++;
