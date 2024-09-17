@@ -1,10 +1,13 @@
 package music;
 
+import java.util.Scanner;
+
 public class Music {
     String nameOfTheMusic, artist;
     int yearOfRelease = 0;
     int numOfRates;
     double rates, average;
+    Scanner sc = new Scanner(System.in);
 
     void showTheAverage(double note){
         rates += note;

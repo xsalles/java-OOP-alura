@@ -17,8 +17,6 @@ public class Main {
         myMusic.yearOfRelease = sc.nextInt();
 
         myMusic.showTheAverage(9);
-        myMusic.showTheAverage(2);
-        myMusic.showTheAverage(8);
 
         myMusic.technicalSheet();
 
