@@ -10,7 +10,6 @@ public class Movie {
                 allReviews++;
 
                 average = reviews / allReviews;
-                
         }
 
         void showInformations() {
