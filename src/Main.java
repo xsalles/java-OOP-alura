@@ -12,7 +12,5 @@ public class Main {
         myMovie.sumOfReviews(3);
 
         myMovie.showInformations();
-
-
      }
 }
