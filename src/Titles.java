@@ -63,7 +63,6 @@ public class Titles {
         }
 
       
-        
 
         void showInformations() {
                 if (allReviews > 0) {
