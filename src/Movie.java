@@ -1,24 +1,12 @@
-public class Movie {
-        String name;
-        int yearOfRealease, allReviews, durationInMinutes;
-        boolean incluseInPlan;
-        double reviews, average;
+public class Movie extends Titles {
+    private String director;
 
-        void averageOfReviews(double note) {
-                reviews += note;
+    public String getDirector() {
+        return director;
+    }
 
-                allReviews++;
-
-                average = reviews / allReviews;
-        }
-
-        void showInformations() {
-                System.out.printf("""
-                                Nome do filme: %s
-                                Ano de Lançamento: %d
-                                Duração em minutos: %d minutos
-                                Nota média do filme: %.1f
-                                Quantidade de avaliações: %d
-                                """, name, yearOfRealease, durationInMinutes, average, allReviews);
-        }
+    public void setDirector(String director) {
+        this.director = director;
+    }
+    
 }
