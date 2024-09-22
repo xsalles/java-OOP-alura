@@ -1,4 +1,4 @@
-package conta_bancaria;
+package bank_account;
 
 public class ContaBancaria {
     private int agency;
