@@ -5,7 +5,7 @@ public class ContaBancaria {
     private double balance;
     String name;
 
-    public int agency(){
+    public int getAgency(){
         return agency;
     }
 
