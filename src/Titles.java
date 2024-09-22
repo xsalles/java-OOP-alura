@@ -2,6 +2,7 @@ public class Titles {
         private String name;
         private double reviews, average;
         private int yearOfRealease, allReviews, durationInMinutes;
+        private boolean incluseInPlan;
 
         public String getName() {
                 return name;
@@ -35,8 +36,6 @@ public class Titles {
                 this.yearOfRealease = yearOfRealease;
         }
 
-        boolean incluseInPlan;
-
         public boolean isIncluseInPlan() {
                 return incluseInPlan;
         }
@@ -58,10 +57,22 @@ public class Titles {
         }
 
         public void setReviews(double reviews) {
-                this.reviews = reviews;
+                this.reviews += reviews;
+                
+                allReviews++;
         }
 
+      
+        
+
         void showInformations() {
+                if (allReviews > 0) {
+                        average = reviews / allReviews;
+                } else {
+                        System.out.println("\nEsse catálogo tem zero avaliações\n");
+                }
+
+
                 System.out.printf("""
                                 Nome: %s
                                 Ano de Lançamento: %d

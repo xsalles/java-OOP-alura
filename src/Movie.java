@@ -8,5 +8,4 @@ public class Movie extends Titles {
     public void setDirector(String director) {
         this.director = director;
     }
-    
 }
