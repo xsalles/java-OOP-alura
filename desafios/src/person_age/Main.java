@@ -7,5 +7,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         PersonAge myAge = new PersonAge();
 
+       System.out.println("\nQual é o seu nome?\n");
+       myAge.setName(sc.nextLine());
+
+       System.out.println("\nQual a sua idade?\n");
+       myAge.setAge(sc.nextInt());
+
+       myAge.olderOrYounger();
+
+       sc.close();
     }
 }
