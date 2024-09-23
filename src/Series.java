@@ -31,4 +31,9 @@ public class Series extends Titles {
     public void setSeasons(int seasons) {
         this.seasons = seasons;
     }
+
+    @Override
+    public int getDurationInMinutes (){
+        return seasons * episodesBySeason * minutesByEpisodes;
+    }
 }
