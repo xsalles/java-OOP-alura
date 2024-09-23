@@ -12,5 +12,19 @@ public class Main {
       myMovie.setReviews(9);
 
       myMovie.showInformations();
+
+      CalculateOfTime calculate = new CalculateOfTime();
+
+      calculate.include(myMovie);
+      System.out.println(calculate.getTempoTotal());
+
+      Series mySeries = new Series();
+
+      mySeries.setSeasons(20);
+      mySeries.setEpisodesBySeason(12);
+      mySeries.setMinutesByEpisodes(42);
+
+      calculate.include(mySeries);
+      System.out.println("Duração em minutos para maratonar essa série é: " + calculate.getTempoTotal());
    }
 }
