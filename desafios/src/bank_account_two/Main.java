@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Account myAccount = new Account();
+        CorrentAccount myAccount = new CorrentAccount();
+        
         int optionChosed = 0;
 
         while (optionChosed != 4){
@@ -23,17 +24,22 @@ public class Main {
             optionChosed = sc.nextInt();
     
             switch (optionChosed) {
-                case 1: System.out.println("\nQuantos reais vocÊ deseja depositar?\n");
-                        myAccount.setWannaDeposit(sc.nextDouble());
-    
-                        myAccount.deposit();    
+                case 1: 
+                
+                System.out.println("\nQuantos reais você deseja depositar?\n");
+                myAccount.setWannaDeposit(sc.nextDouble());
+                
+                myAccount.deposit();    
                     break;
-                case 2: System.out.println("\nDigite quantos reais que você deseja sacar: \n");
+                case 2: 
+                
+                System.out.println("\nDigite quantos reais que você deseja sacar: \n");
                         myAccount.setWannaWithDraw(sc.nextDouble());
     
                         myAccount.withDraw();
                     break;
-                case 3: System.out.printf("\nO seu saldo é de %.2f", myAccount.getBalance());
+                case 3:
+                System.out.printf("\nO seu saldo é de %.2f", myAccount.getBalance() );
                     break;
                 case 4: 
                     break;

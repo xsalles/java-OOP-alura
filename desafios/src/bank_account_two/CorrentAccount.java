@@ -2,14 +2,12 @@ package bank_account_two;
 
 
 public class CorrentAccount extends Account {
-    private double fee;
+    private double fee = 12.00;
     double balance = getBalance();
-
-    public double getFee() {
-        return fee = 0.01;
+    
+    public void collectFee(){
+        balance -= fee;
     }
 
-    public void monthlyFee(){
-        balance *= fee;
-    }
+    
 }
