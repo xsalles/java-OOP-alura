@@ -33,5 +33,11 @@ public class Main {
 
       FilterRecomendate filtro = new FilterRecomendate();
       filtro.filter(myMovie);
+
+      Episode episode = new Episode();
+      episode.setNumber(1);
+      episode.setSerie(mySeries);
+      episode.setTotalVisualizations(50);
+      filtro.filter(episode);
    }
 }

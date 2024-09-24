@@ -41,4 +41,9 @@ public class Episode extends Titles implements Classificate {
         }
  
     }
+
+    public void setTotalVisualizations(int totalVisualizations) {
+        this.totalVisualizations = totalVisualizations;
+    }
+
 }
