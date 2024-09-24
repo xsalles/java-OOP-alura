@@ -1,3 +1,6 @@
+package br.com.alura.screenmatch.calculate;
+
+import br.com.alura.screenmatch.models.Titles;
 
 public class CalculateOfTime {
     private int totalTime;
