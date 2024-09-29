@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/desafios/desafios.iml" filepath="$PROJECT_DIR$/desafios/desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundBox/finalChallenge.iml" filepath="$PROJECT_DIR$/SoundBox/finalChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-OOP-alura.iml" filepath="$PROJECT_DIR$/java-OOP-alura.iml" />
     </modules>
   </component>
